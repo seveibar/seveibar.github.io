@@ -3,8 +3,8 @@ var graph_size = 650;
 var bar_height = 150;
 var num_bars = 5;
 var bar_padding = 50;
-var tween_rate = 8; // Lower is faster
-var bar_sensitivity = 10;
+var tween_rate = 6; // Lower is faster
+var bar_sensitivity = 4;
 
 var center_page_x;
 var bar_width = ((graph_size- bar_padding * (num_bars - 1)) / num_bars);
@@ -42,7 +42,7 @@ function initEvents(){
         var mx = e.pageX - $(canvas).offset().left;
         var my = e.pageY - $(canvas).offset().top;
         var perx = (mx / graph_size);
-        var pery = (my > -100 && my < bar_height) ? 1 : 0;
+        var pery = (my > -100 && my < bar_height + 30) ? 1 : 0;
         for (var i = 0; i < num_bars;i++){
             var my_per = (i * bar_width + bar_width/2 + bar_padding * i) / graph_size;
             var dist = Math.abs(perx - my_per);

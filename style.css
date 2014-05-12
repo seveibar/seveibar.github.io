@@ -6,16 +6,29 @@ body {
 #container{
     text-align:center;
     height:300px;
-    margin-top:50px;
+    margin-top:200px;
 }
 #name{
     font-size:28px;
     margin-bottom:20px;
 }
 #description{
-    font-size:14px;
+    font-size:16px;
     color:#888;
-    margin-bottom:200px;
+    margin-bottom:65px;
+}
+#sublinks{
+    height:135px;
+    color : #fff;
+    /*background-color:#333;*/
+}
+.sublink{
+    height:100px;
+    vertical-align:text-top;
+}
+.sublink-text:hover{
+    color:#ccc;
+    cursor:pointer;
 }
 #links{
     height:200px;
@@ -23,6 +36,7 @@ body {
     padding:0px;
     display:inline-block;
     width:650px;
+    background-color:#fff;
 }
 .link{
     display:inline-block;
@@ -30,8 +44,10 @@ body {
     padding:0px;
     width:90px;
     margin-left:50px;
-
-    background-color:#fff;
+}
+.link-text:hover{
+    color:#333;
+    cursor:pointer;
 }
 
 
