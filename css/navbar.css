@@ -1,0 +1,22 @@
+#navbar{
+    width:100%;
+}
+#title{
+    display:inline-block;
+    margin-left:10px;
+    color:#fff;
+}
+#navbar-buttons{
+    float:right;
+}
+.navbar-button{
+    display:inline-block;
+    width:100px;
+    text-align:center;
+    margin-right:10px;
+}
+
+#navbar-canvas{
+    display:none;
+    z-index:-10;
+}
