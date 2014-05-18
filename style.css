@@ -26,6 +26,9 @@ body {
     height:100px;
     vertical-align:text-top;
 }
+.sublink:first-child{
+    margin-left:0px;
+}
 .sublink-text:hover{
     color:#ccc;
     cursor:pointer;

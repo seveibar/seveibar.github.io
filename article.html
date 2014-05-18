@@ -1,0 +1,38 @@
+---
+title : Projects | Severin Ibarluzea
+---
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me - Severin Ibarluzea</title>
+    </head>
+    <body>
+        <div id='navbar'>
+            <div id='title'>
+                Severin Ibarluzea
+            </div>
+            {% for toplink in site.data.map %}
+                <div class='navbar-button'>
+                    {{ toplink[0] }}
+                </div>
+            {% endfor %}
+
+            <!-- <div class='navbar-button'>
+                bio
+            </div>
+            <div class='navbar-button'>
+                work
+            </div>
+            <div class='navbar-button'>
+                projects
+            </div>
+            <div class='navbar-button'>
+                contact
+            </div>
+            <div class='navbar-button'>
+                college
+            </div> -->
+        </div>
+    </body>
+</html>

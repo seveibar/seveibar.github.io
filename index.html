@@ -1,11 +1,13 @@
+---
+title : Severin Ibarluzea
+---
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Severin Ibarluzea</title>
 
-    <!-- Stylesheets -->
-    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-    <link href='style.css' rel='stylesheet' type='text/css'>
+    {% include main_style.html %}
 
     <!-- Scripts -->
     <script src='jquery.min.js'></script>
@@ -15,11 +17,13 @@
     <div id='container'>
         <div id='name'>Severin Ibarluzea</div>
         <div id='description'>Student at Rensselaer Polytechnic Institute, Web Developer, Computer Engineer</div>
-        <div id='sublinks'>
-            <div class='link sublink' style='margin-left:0px;'><span class='sublink-text'>about</span></div><div class='link sublink'><span class='sublink-text'>harris</span></div><div class='link sublink'><span class='sublink-text'>visual cad</span><br/><span class='sublink-text'>hw server</span><br/><span class='sublink-text'>gunderbar</span><br/><span class='sublink-text'>um2</span></div><div class='link sublink'><span class='sublink-text'>2014</span></div><div class='link sublink'><span class='sublink-text'>carnival</span><br/><span class='sublink-text'>rcos</span><br/><span class='sublink-text'>ehc</span><br/><span class='sublink-text'>rsa</span></div>
+        <div id='sublinks'>{% for toplink in site.data.map %}<div class='link sublink'>{% for sublink in toplink[1] %}<span class='sublink-text'>{{ sublink }}</span><br/>{% endfor %}</div>{% endfor %}
+            <!-- <div class='link sublink'><span class='sublink-text'>about</span></div><div class='link sublink'><span class='sublink-text'>harris</span></div><div class='link sublink'><span class='sublink-text'>visual cad</span><br/><span class='sublink-text'>hw server</span><br/><span class='sublink-text'>gunderbar</span><br/><span class='sublink-text'>um2</span></div><div class='link sublink'><span class='sublink-text'>Resume</span></div><div class='link sublink'><span class='sublink-text'>carnival</span><br/><span class='sublink-text'>rcos</span><br/><span class='sublink-text'>ehc</span><br/><span class='sublink-text'>rsa</span></div> -->
         </div>
         <div id='links'>
-            <div class='link' style='margin-left:0px;'><span class='link-text'>bio</span></div><div class='link'><span class='link-text'>work</span></div><div class='link'><span class='link-text'>projects</span></div><div class='link'><span class='link-text'>resume</span></div><div class='link'><span class='link-text'>college</span></div>
+			{% capture first_element %}{{site.data.map | first | first}}{% endcapture %}
+			{% for toplink in site.data.map %}<div class='link' {% if toplink[0] == first_element %} style='margin-left:0px;' {% endif %}><span class='link-text'>{{ toplink[0] }}</span></div>{% endfor %}
+            <!-- <div class='link' style='margin-left:0px;'><span class='link-text'>bio</span></div><div class='link'><span class='link-text'>work</span></div><div class='link'><span class='link-text'>projects</span></div><div class='link'><span class='link-text'>contact</span></div><div class='link'><span class='link-text'>college</span></div> -->
         </div>
     </div>
     <canvas id='canvas'></canvas>
