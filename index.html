@@ -21,7 +21,7 @@ title : Severin Ibarluzea
         </div>
         <div id='links'>
 			{% capture first_element %}{{site.data.map | first | first}}{% endcapture %}
-			{% for toplink in site.data.map %}<div class='link' {% if toplink[0] == first_element %} style='margin-left:0px;' {% endif %}><span class='link-text'>{{ toplink[0] }}</span></div>{% endfor %}
+			{% for toplink in site.data.map %}<div class='link' {% if toplink[0] == first_element %} style='margin-left:0px;' {% endif %}><a class='link-text' href='/{{ toplink[0] }}.html'>{{ toplink[0] }}</a></div>{% endfor %}
         </div>
     </div>
     <canvas id='canvas'></canvas>
