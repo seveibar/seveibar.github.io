@@ -8,3 +8,9 @@ body{
     min-width:800px;
     max-width:1000px;
 }
+.navbar-button-text{
+    text-decoration:none;
+}
+.navbar-button:hover{
+    cursor:pointer;
+}

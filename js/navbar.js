@@ -82,9 +82,9 @@ $(document).ready(function(){
             var actual_height = bar_values[i];
 
             if (actual_height > nav_height / 2){
-                $(link_elements[i]).css({"color":"#fff"});
+                $(link_elements[i]).find(".navbar-button-text").css({"color":"#fff"});
             }else{
-                $(link_elements[i]).css({"color":"#000"});
+                $(link_elements[i]).find(".navbar-button-text").css({"color":"#000"});
             }
 
             context.fillRect(xloc - $("#article-container").offset().left, nav_height - actual_height,bar_width,actual_height);

@@ -3,7 +3,7 @@
         {{ page.title }}
     </div>
     <div id='navbar-buttons'>
-        {% for toplink in site.data.map %}<div class='navbar-button'>{{ toplink[0] }}</div>{% endfor %}
+        {% for toplink in site.data.map %}<div class='navbar-button'><a class='navbar-button-text' href='#'>{{ toplink[0] }}</a></div>{% endfor %}
     </div>
 </div>
 <canvas id='navbar-canvas'></canvas>
