@@ -8,6 +8,9 @@ body{
     min-width:800px;
     max-width:1000px;
 }
+#content-container{
+    text-align:center;
+}
 .navbar-button-text{
     text-decoration:none;
 }
