@@ -3,4 +3,76 @@ layout: article
 title: Bio | Severin Ibarluzea
 ---
 
-Hello!
+<style>
+.talk-block{
+    text-align:left;
+    height:200px;
+    /*padding-bottom:25px;*/
+    margin-bottom:50px;
+}
+img{
+    box-shadow: 1px 1px 2px #888;
+    width:196px;
+    height:196px;
+    padding:2px;
+}
+.text-container{
+    display:inline-block;
+    width:560px;
+    position:relative;
+}
+.talk-left-text{
+    margin-left:20px;
+    position:absolute;
+    top:-200px;
+    padding:20px;
+    padding-right:10px;
+    box-shadow:1px 1px 2px #888;
+}
+#talk-container{
+    margin-top:50px;
+    margin:25px;
+    margin-bottom:0px;
+    margin-top:25px;
+    padding:50px;
+    padding-top:25px;
+    padding-bottom:0px;
+    text-align:center;
+    display:inline-block;
+}
+#talk-content-container{
+    width:800px;
+    display:inline-block;
+}
+#send-off{
+    text-align:center;
+    box-shadow:1px 1px 2px #888;
+    height:auto;
+    padding:20px;
+    margin-right:32px;
+}
+</style>
+
+<div id='talk-container'>
+    <div id='talk-content-container'>
+        <div class='talk-block'>
+            <img class='img-left' src='http://www.gravatar.com/avatar/d9ffb04e92829b699fe3afc29dfc672d?s=200'>         </img>
+            <div class='text-container'>
+                <div class='talk-left-text'>
+                Hi! My name is Severin Ibarluzea. I'm a Computer and Systems major studying at Rensselaer Polytechnic Institute in Troy, NY. Currently, I'm working a summer intership with Harris RF Communications in Rochester.
+                </div>
+            </div>
+        </div>
+        <div class='talk-block'>
+            <img class='img-left' src='img/me2.jpg' width='200' height='200'></img>
+            <div class='text-container'>
+                <div class='talk-left-text'>
+                During the school year, I'm an involved student that participates and serves technical roles in many <a href='/college.html'>clubs and activities</a>. In my free time, I do web programming, android applications and games, experiment with electronics and participate in <a href='/college.html#business-competitions'>business competitions</a>.
+                </div>
+            </div>
+        </div>
+        <div class='talk-block' id='send-off'>
+            I'm interested in learning new stuff and building awesome things. <a href='/contact.html'>Get in touch!</a>
+        </div>
+    </div>
+</div>

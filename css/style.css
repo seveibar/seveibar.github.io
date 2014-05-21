@@ -3,6 +3,14 @@ body {
     font-size:16px;
     min-width:800px;
 }
+a{
+    text-decoration:none;
+    color:#666;
+}
+a:hover{
+    text-decoration:underline;
+    color:#888;
+}
 
 #container{
     text-align:center;

@@ -1,6 +1,8 @@
 <div id='navbar'>
     <div id='title'>
+        <a href='/index.html'>
         {{ page.title }}
+        </a>
     </div>
     <div id='navbar-buttons'>
         {% for toplink in site.data.map %}<div class='navbar-button'><a class='navbar-button-text' href='/{{ toplink[0] }}.html'>{{ toplink[0] }}</a></div>{% endfor %}
