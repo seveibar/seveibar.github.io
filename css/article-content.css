@@ -31,7 +31,7 @@
     color:#fff;
 }
 
-.large-content-box .context-box-text{
+.large-content-box .content-box-text{
     margin-top:10px;
 }
 
@@ -48,13 +48,13 @@
     height:196px;
     padding:2px;
 }
-.content-box .context-box-text{
+.content-box .content-box-text{
     display:inline-block;
     width:510px;
     margin-left:20px;
 }
 
-.context-box-text{
+.content-box-text{
     padding:20px;
     text-align:left;
     box-shadow:1px 1px 2px #888;
@@ -62,4 +62,9 @@
 
 .content-center{
     text-align:center;
+}
+
+.content-box-title{
+    font-size:24px;
+    margin-bottom:10px;
 }
