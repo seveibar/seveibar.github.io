@@ -17,7 +17,7 @@ title : Severin Ibarluzea
     <div id='container'>
         <div id='name'>Severin Ibarluzea</div>
         <div id='description'>Student at Rensselaer Polytechnic Institute, Web Developer, Computer Engineer</div>
-        <div id='sublinks'>{% for toplink in site.data.map %}<div class='link sublink'>{% for sublink in toplink[1] %}<span class='sublink-text'>{{ sublink }}</span><br/>{% endfor %}</div>{% endfor %}
+        <div id='sublinks'>{% for toplink in site.data.map %}<div class='link sublink'>{% for sublink in toplink[1] %}<a class='sublink-text' href='{{ sublink[1].url }}'>{{ sublink[0] }}</a><br/>{% endfor %}</div>{% endfor %}
         </div>
         <div id='links'>
 			{% capture first_element %}{{site.data.map | first | first}}{% endcapture %}
@@ -25,8 +25,6 @@ title : Severin Ibarluzea
         </div>
     </div>
     <canvas id='canvas'></canvas>
-    <div id='footer'>
-        &copy; 2014 Severin Ibarluzea &middot; source code on <a href='https://github.com/seveibar/seveibar.github.io'>github </a>
-    </div>
+    {% include footer.html %}
 </body>
 </html>

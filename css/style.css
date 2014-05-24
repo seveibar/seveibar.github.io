@@ -38,6 +38,9 @@ a:hover{
 .sublink:first-child{
     margin-left:0px;
 }
+.sublink-text{
+    color:#fff;
+}
 .sublink-text:hover{
     color:#ccc;
     cursor:pointer;
@@ -75,6 +78,7 @@ a:hover{
 
 #footer{
     margin-top:100px;
+    margin-bottom:50px;
     color:#aaa;
     text-align:center;
     /*font-size:14px;*/

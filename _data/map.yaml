@@ -1,21 +1,37 @@
 bio:
-    - about
+    about :
+        url : /bio.html#about
 work:
-    - harris
-    - rcos
+    harris:
+        url : /work.html#harris
+    rcos:
+        url : /work.html#rcos
 projects:
-    - visual cad
-    - hw server
-    - gunderbar
-    - um2
+    visual cad:
+        url : /projects.html#visual-cad
+    hw server:
+        url : /projects.html#hw-server
+    gunderbar:
+        url : /projects.html#gunderbar
+    um2:
+        url : /projects.html#ultimate-miner
 contact:
-    - resume
-    - email
-    - github
-    - twitter
+    resume :
+        url : /contact.html
+    email :
+        url : /contact.html
+    github :
+        url : https://github.com/seveibar
+    twitter :
+        url : https://twitter.com/seveibar
 college:
-    - carnival
-    - rcos
-    - ehc
-    - rsa
-    - rev
+    carnival:
+        url : /college.html#carnival
+    rcos:
+        url : /college.html#rcos
+    ehc:
+        url : /college.html#ehc
+    rsa:
+        url : /college.html#rsa
+    rev:
+        url : /college.html#rev
