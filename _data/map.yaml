@@ -2,6 +2,7 @@ bio:
     - about
 work:
     - harris
+    - rcos
 projects:
     - visual cad
     - hw server
