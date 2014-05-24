@@ -1,0 +1,25 @@
+#content-container{
+    margin-top:60px;
+    text-align:center;
+}
+
+.content-box{
+    display:inline-block;
+    width:780px;
+    margin-bottom:40px;
+}
+.content-box img{
+    float:left;
+    box-shadow:1px 1px 2px #888;
+    width:196px;
+    height:196px;
+    padding:2px;
+}
+.context-box-text{
+    display:inline-block;
+    width:510px;
+    margin-left:20px;
+    padding:20px;
+    text-align:left;
+    box-shadow:1px 1px 2px #888;
+}
