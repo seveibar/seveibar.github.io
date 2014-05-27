@@ -40,6 +40,10 @@
     width:780px;
     margin-bottom:40px;
 }
+p{
+    margin:0px;
+    padding:0px;
+}
 .content-box img{
     float:left;
     display:inline-block;

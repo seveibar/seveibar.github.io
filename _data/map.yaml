@@ -7,8 +7,8 @@ work:
     rcos:
         url : /work.html#rcos
 projects:
-    visual cad:
-        url : /projects.html#visual-cad
+    # visual cad:
+    #     url : /projects.html#visual-cad
     hw server:
         url : /projects.html#hw-server
     gunderbar:
