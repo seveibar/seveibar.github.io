@@ -5,55 +5,16 @@ title: College | Severin Ibarluzea
 
 <link href='css/article-content.css' rel='stylesheet' type='text/css'>
 
-<div id='content-container'>
+{% for project in site.data.college %}
 
-    <!-- Winter Carnival -->
-
-    <div class='content-box'>
-        <img src='img/harris.png'></img>
-        <div class='content-box-text'>
-                <div class='content-box-title'> RPI Winter Carnival</div>
-                The RPI Winter Carnival is a annual festival celebrated by all RPI students and has a reputation for being one of the biggest events on campus. During the 2014 Winter Carnival, I served as the Winter Carnival Web Designer and Web Master, as well as an event coordinator. The site can be seen <a href='http://carnival.union.rpi.edu/2014/'> here </a>.
-        </div>
-    </div>
-
-    <!-- RCOS  -->
-
-    <div class='content-box'>
-        <img src='img/harris.png'></img>
-        <div class='content-box-text'>
-            <div class='content-box-title'> Rensselaer Center for Open Source</div>
-            In RCOS, I worked on a project to replace the computer science department's homework server. Our homework server features fast algorithms, a more user friendly design, an intuitive instructor interface and much more. You can <a href='https://github.com/JFrei86/HWserver'> check out our repo </a> or read more on the <a href='/projects.html#hw-server'>projects page</a>.
-        </div>
-    </div>
-
-    <!-- EHC -->
-
-    <div class='content-box'>
-        <img src='img/harris.png'></img>
-        <div class='content-box-text'>
-            <div class='content-box-title'> Embedded Hardware Club</div>
-            The Embedded Hardware Club is a group of students who share a passion for electronics and programming and bring their knowledge to others. I'm currently the project manager/coordinator for EHC. Read more on <a href='http://rpiehc.org/about.html'>our website</a>.
-        </div>
-    </div>
-
-    <!-- REV -->
-
-    <div class='content-box'>
-        <img src='img/harris.png'></img>
-        <div class='content-box-text'>
-            <div class='content-box-title'> Rensselaer Electric Vehicle </div>
-            REV is a student organization dedicated to designing electric vehicles. Every year we head down to the <a href='http://www.shell.com/global/environment-society/ecomarathon.html'>Shell Eco-Marathon</a> in Houston, Texas to race our electric cars. Last semester I was a member of the drive-train team concentrating on 3D CAD and manufacturing. Our <a href='http://rev.union.rpi.edu/'> website </a> can provide more information.
-        </div>
-    </div>
-
-    <!-- RSA -->
-
-    <div class='content-box'>
-        <img src='img/harris.png'></img>
-        <div class='content-box-text'>
-            <div class='content-box-title'> Resident Student Association</div>
-            I'm currently the Technology and Social Media Chair for the Resident Student Association, one of the largest clubs on RPI's campus. My duties include maintaining the website and informing students about what events RSA is hosting through social media networks (i.e. Twitter, Facebook, etc.).
-        </div>
+<div class='content-box'>
+    <img src='{{ project[1].img }}'/>
+    <div class='content-box-text'>
+            <div class='content-box-title'>
+                {{ project[1].title }}
+            </div>
+            {{ project[1].description | markdownify }}
     </div>
 </div>
+
+{% endfor %}
