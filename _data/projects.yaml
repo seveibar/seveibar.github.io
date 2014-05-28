@@ -26,3 +26,10 @@ ultimate-miner:
         An Android game developed indendently using Adobe Air. Ultimate Miner 1 has been released with 100,000+ downloads and is available from the <a href='#'>Google Play Store</a>. Ultimate Miner 2 is currently under development.
     caption: >
         Check it out on [the google play store](#)!
+big-island:
+    img: "/img/large-big-island.png"
+    title: Big Island
+    description: >
+        A game created for the [Liberated Pixel Cup](http://lpc.opengameart.org/), an open-source game competition sponsored by Mozilla, Creative Commons, OpenGameArt, and the Free Software Foundation. Big Island won the HTML5 grand prize. You can [play it here](/liberated-pixel-cup).
+    caption: >
+        Big Island is open-source, [check out the repo!](https://github.com/seveibar/liberated-pixel-cup)

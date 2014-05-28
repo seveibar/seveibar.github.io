@@ -9,6 +9,8 @@ work:
 projects:
     # visual cad:
     #     url : /projects.html#visual-cad
+    big island:
+        url : /projects.html#big-island
     hw server:
         url : /projects.html#hw-server
     gunderbar:
