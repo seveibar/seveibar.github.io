@@ -37,6 +37,10 @@
     top:-55px;
     left:0px;
     opacity:.5;
+    transition:opacity .25s;
+    -webkit-transition:opacity .25s;
+    -moz-transition:opacity .25s;
+    -o-transition:opacity .25s;
     z-index:5;
 }
 .large-content-box .content-bgimage img:hover{
