@@ -1,0 +1,10 @@
+harris:
+    img: "img/harris.png"
+    title: Harris
+    description: >
+        I\'m currently working at Harris RF Communications in Rochester, NY for a summer internship.
+rcos:
+    img: "img/rcos.png"
+    title: Rensselaer Center for Open-Source
+    description: >
+        I previously worked with Rensselaer Center for Open Source researching and developing a [new homework server for the computer science department](/projects.html#hwserver)

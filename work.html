@@ -5,16 +5,20 @@ title: Work | Severin Ibarluzea
 <link href='css/article-content.css' rel='stylesheet' type='text/css'>
 
 <div id='content-container'>
-    <div class='content-box'>
-        <img src='img/harris.png'></img>
+
+
+    {% for project in site.data.work %}
+
+    <div id="{{ project[0] }}" class='content-box'>
+        <img src='{{ project[1].img }}'/>
         <div class='content-box-text'>
-            I'm currently working at Harris RF Communications in Rochester, NY for a summer internship.
+                <div class='content-box-title'>
+                    {{ project[1].title }}
+                </div>
+                {{ project[1].description | markdownify }}
         </div>
     </div>
-    <div class='content-box'>
-        <img src='img/rcos.png'></img>
-        <div class='content-box-text'>
-            I previously worked with Rensselaer Center for Open Source researching and developing a <a href='/projects.html#hwserver'> new homework server for the computer science department</a>.
-        </div>
-    </div>
+
+    {% endfor %}
+
 </div>
