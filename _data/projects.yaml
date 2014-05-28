@@ -6,21 +6,21 @@
 #     caption: >
 #         Check back soon!
 hwserver:
-    img: "/img/large-placeholder.png"
+    img: "/img/large-hwserver.png"
     title: Homework Server
     description: >
         A Rensselaer Center for Open Source project to build a better homework server for the RPI computer science department. The project involves improving algorithms used for grading homework, rewriting the backend php used for uploading and processing assignments, modernizing the webpages and making the assignment creation process more friendly to instructors.
     caption: >
         Check it out on [github](https://github.com/JFrei86/HWserver)!
 gunderbar:
-    img: "/img/large-placeholder.png"
+    img: "/img/large-gunderbar.png"
     title: Gunderbar
     description: >
         Gunderbar is an online service that offers deep integration and a seamless interface for sharing items with friends and finding items to borrow. It was first proposed at the 2013 RPI Business Model Competition and has been under development since.
     caption: >
         Coming soon!
 ultimate-miner:
-    img: "/img/large-placeholder.png"
+    img: "/img/large-ultimate-miner.png"
     title: Ultimate Miner
     description: >
         An Android game developed indendently using Adobe Air. Ultimate Miner 1 has been released with 100,000+ downloads and is available from the <a href='#'>Google Play Store</a>. Ultimate Miner 2 is currently under development.

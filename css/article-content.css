@@ -10,7 +10,6 @@
 }
 
 .large-content-box .content-bgimage{
-    background-image: url('/img/large-placeholder.png');
     width:776px;
     height:296px;
     box-shadow:1px 1px 2px #888;
@@ -22,13 +21,26 @@
     display:inline-block;
     text-align:left;
     font-size:32px;
-    opacity:.75;
-    background-color:rgba(0,0,0,200);
+    background-color:rgba(0,0,0,.75);
     padding:10px;
     padding-left:20px;
     padding-right:20px;
-    margin:20px;
+    position:relative;
+    left:20px;
+    top:20px;
+    z-index:10;
     color:#fff;
+}
+
+.large-content-box .content-bgimage img{
+    position:relative;
+    top:-55px;
+    left:0px;
+    opacity:.5;
+    z-index:5;
+}
+.large-content-box .content-bgimage img:hover{
+    opacity:1;
 }
 
 .large-content-box .content-box-text{
