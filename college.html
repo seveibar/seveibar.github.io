@@ -7,7 +7,7 @@ title: College | Severin Ibarluzea
 
 {% for project in site.data.college %}
 
-<div class='content-box'>
+<div id="{{ project[0] }}" class='content-box'>
     <img src='{{ project[1].img }}'/>
     <div class='content-box-text'>
             <div class='content-box-title'>

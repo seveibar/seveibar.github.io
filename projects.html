@@ -8,7 +8,7 @@ title: Projects | Severin Ibarluzea
 
     {% for project in site.data.projects %}
 
-    <div class='large-content-box'>
+    <div id="{{ project[0] }}" class='large-content-box'>
         <div class='content-bgimage' style="background-image:url('{{ project[1].img }}'" >
             <div class='title'>{{ project[1].title }}</div>
         </div>
