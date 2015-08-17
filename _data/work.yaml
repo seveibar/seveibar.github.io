@@ -1,8 +1,23 @@
+tripadvisor:
+    img: "img/tripadvisor.png"
+    title: "TripAdvisor"
+    description: >
+        I interned at TripAdvisor as a Software Engineering intern. Through my internship I developed live site features, fixed bugs and built tests to test user engagement and content collection rates. While at TripAdvisor I won the 2015 intern hackathon, a competition between the software interns, for a NLP review visualization over the Boston area.
+guild:
+    img: "img/guild.png"
+    title: "Inventor's Guild"
+    description: >
+        I currently do part-time work for The Inventor\'s Guild, a student-run consulting firm serving small businesses and startups. I have done several projects with the firm, spanning iOS/Android app development, Web Development, Embedded Hardware Design and Desktop Application Development.
+ghe:
+    img: "img/ghe.png"
+    title: "Green Heron Engineering"
+    description: >
+        I currently develop embedded system interfaces for Green Heron Engineering. This involves maintainance of a legacy java based desktop application/server and the development of a new web-based application.
 harris:
-    img: "img/harris.png"
+    img: "img/harris.jpg"
     title: Harris
     description: >
-        I\'m currently working at Harris RF Communications in Rochester, NY for a summer internship.
+        I worked as a Software Developer/Test Engineer intern at Harris RF Communications in Rochester, NY for a summer internship.
 rcos:
     img: "img/rcos.png"
     title: Rensselaer Center for Open-Source
