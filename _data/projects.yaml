@@ -1,10 +1,17 @@
-# visual-cad:
-#     img: "/img/large-placeholder.png"
-#     title: Visual CAD
-#     description: >
-#         An effort to combine OpenJSCad and Google Blockly to create a Computer Aided Design (CAD) tool for children to easily create complex 3D designs suitable for 3D printing.
-#     caption: >
-#         Check back soon!
+binpacking:
+    img: "img/binpacking.png"
+    title: "Javascript Bin-Packing"
+    description: >
+        I open-sourced a 2D javascript bin packing algorithm that allowed words to be overlay a map at different sizes without touching. This algorithm was used to win the 2015 TripAdvisor intern hackathon.
+    caption: >
+        Check it out on [github](https://github.com/seveibar/js-word-packing)!
+circuits:
+    img: "img/circuit.png"
+    title: "Circuits"
+    description: >
+        I create open-source schematics and circuit designs for arduino shields and beaglebone capes.
+    caption: >
+        Coming soon!
 hwserver:
     img: "/img/large-hwserver.png"
     title: Homework Server
@@ -23,9 +30,9 @@ ultimate-miner:
     img: "/img/large-ultimate-miner.png"
     title: Ultimate Miner
     description: >
-        An Android game developed indendently using Adobe Air. Ultimate Miner 1 has been released with 100,000+ downloads and is available from the <a href='#'>Google Play Store</a>. Ultimate Miner 2 is currently under development.
+        An Android game developed using Adobe Air. Ultimate Miner has been released with 100,000+ downloads and is available from the <a href='#'>Google Play Store</a>. Ultimate Miner 2 is currently under development.
     caption: >
-        Check it out on [the google play store](#)!
+        Check it out on [the google play store](https://play.google.com/store/apps/details?id=air.com.spleeb.ultimatemine&hl=en)!
 big-island:
     img: "/img/large-big-island.png"
     title: Big Island

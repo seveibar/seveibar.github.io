@@ -13,8 +13,10 @@ work:
     rcos:
         url : /work.html#rcos
 projects:
-    # visual cad:
-    #     url : /projects.html#visual-cad
+    binpacking:
+        url: /projects.html#binpacking
+    circuits:
+        url : /projects.html#circuits
     big island:
         url : /projects.html#big-island
     hw server:
@@ -35,13 +37,13 @@ contact:
     linkedin:
         url : https://www.linkedin.com/pub/severin-ibarluzea/89/b30/640
 college:
-    carnival:
-        url : /college.html#carnival
     rcos:
         url : /college.html#rcos
     ehc:
         url : /college.html#ehc
     rsa:
         url : /college.html#rsa
+    carnival:
+        url : /college.html#carnival
     rev:
         url : /college.html#rev
