@@ -2,6 +2,12 @@ bio:
     about :
         url : /bio.html#about
 work:
+    tripadvsor:
+        url : /work.html#tripadvisor
+    guild:
+        url : /work.html#guild
+    ghe:
+        url : /work.html#ghe
     harris:
         url : /work.html#harris
     rcos:
