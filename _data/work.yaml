@@ -1,3 +1,28 @@
+grabaeng:
+  img: "img/graba.png"
+  title: "Graba Engineering"
+  description: >
+        I helped form <a href='http://graba.engineer'>Graba Engineering LLC</a> in fall of 2016, we performed various engineering services including embedded hardware, mobile, web and desktop application development.
+actasys:
+  img: "img/actasys.png"
+  title: "Actasys"
+  description: >
+        I performed embedded hardware design and software application design with <a href='http://actasysinc.com'>Actasys</a> on advanced monitoring and amplifier applications.
+scienceschool:
+  img: "img/venue.png"
+  title: "RPI School of Science"
+  description: >
+        I developed mobile and web applications with RPI's School of Science for a grading platform centered around attendance validation.
+smartlighting:
+  img: "img/lesa.png"
+  title: "RPI Smart Engineering Lighting Research Center (LESA)"
+  description: >
+        I lead a research team to develop an embedded bluetooth spectrometer and perform various degrees of lighting analysis.
+steptools:
+  img: "img/steptools.png"
+  title: "Step Tools"
+  description: >
+        I worked with Step Tools to develop web-based manufacturing CAD software using a React stack.
 tripadvisor:
     img: "img/tripadvisor.png"
     title: "TripAdvisor"
@@ -7,12 +32,12 @@ guild:
     img: "img/guild.png"
     title: "Inventor's Guild"
     description: >
-        I currently do part-time work for The Inventor\'s Guild, a student-run consulting firm serving small businesses and startups. I have done several projects with the firm, spanning iOS/Android app development, Web Development, Embedded Hardware Design and Desktop Application Development.
+        I did part-time work for The Inventor\'s Guild, a student-run consulting firm serving small businesses and startups. I have done several projects with the firm, spanning iOS/Android app development, Web Development, Embedded Hardware Design and Desktop Application Development.
 ghe:
     img: "img/ghe.png"
     title: "Green Heron Engineering"
     description: >
-        I currently develop embedded system interfaces for Green Heron Engineering. This involves maintainance of a legacy java based desktop application/server and the development of a new web-based application.
+        I developed embedded system interfaces for Green Heron Engineering. This involved maintainance of a legacy java based desktop application/server and the development of a new web-based application.
 harris:
     img: "img/harris.jpg"
     title: Harris

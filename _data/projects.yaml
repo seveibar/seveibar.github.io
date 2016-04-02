@@ -1,3 +1,10 @@
+sorry:
+  img: ""
+  title: "Out of Date"
+  description: >
+      This projects page is now extremely out of date. Check out my [work](/work.html) or [my resume](/res/resume.pdf) to see what I\'m currently up to- I\'ll update my projects soon!
+  caption: >
+
 binpacking:
     img: "img/binpacking.png"
     title: "Javascript Bin-Packing"
