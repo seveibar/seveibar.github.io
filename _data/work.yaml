@@ -1,3 +1,13 @@
+collegeai:
+  img: "img/collegeai.jpg"
+  title: "CollegeAI"
+  description: >
+        I'm a founder and current CTO of <a href='https://collegeai.com'>collegeai.com</a>. We're building an AI to help high school students find the perfect college.
+bic:
+  img: "img/bic.png"
+  title: "Boston Incubation Center"
+  description: >
+      I worked as a systems engineer integrating embedded hardware, developing path finding algorithms and building software interfaces for autonomous navigation robots.
 grabaeng:
   img: "img/graba.png"
   title: "Graba Engineering"
@@ -7,7 +17,12 @@ actasys:
   img: "img/actasys.png"
   title: "Actasys"
   description: >
-        I performed embedded hardware design and software application design with <a href='http://actasysinc.com'>Actasys</a> on advanced monitoring and amplifier applications.
+        I performed embedded hardware design and software application design with <a href='http://actasysinc.com'>Actasys</a> on advanced monitoring and amplifier applications in relation to vehicle aerodynamics.
+rcos:
+  img: "img/rcos.png"
+  title: Rensselaer Center for Open-Source
+  description: >
+        I served as a Lead Coordinator with Rensselaer Center for Open Source researching and developing a [advanced automated homework server called submitty](/projects.html#submitty) as well as a [project coordination platform called Observatory](/projects.html#observatory).
 scienceschool:
   img: "img/venue.png"
   title: "RPI School of Science"
@@ -43,8 +58,3 @@ harris:
     title: Harris
     description: >
         I worked as a Software Developer/Test Engineer intern at Harris RF Communications in Rochester, NY for a summer internship.
-rcos:
-    img: "img/rcos.png"
-    title: Rensselaer Center for Open-Source
-    description: >
-        I previously worked with Rensselaer Center for Open Source researching and developing a [new homework server for the computer science department](/projects.html#hwserver)

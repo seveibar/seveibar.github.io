@@ -1,10 +1,17 @@
-sorry:
-  img: ""
-  title: "Out of Date"
-  description: >
-      This projects page is now extremely out of date. Check out my [work](/work.html) or [my resume](/res/resume.pdf) to see what I\'m currently up to- I\'ll update my projects soon!
-  caption: >
-
+venue:
+    img: "img/venue-lg.png"
+    title: "venue"
+    description: >
+        Venue is an platform that enables instructors to assign attendance to local events or venues- allowing students to attend concerts, art shows or volunteering efforts for course credit.
+    caption: >
+        Check it out the live site [venue.cs.rpi.edu](https://venue.cs.rpi.edu) or the [github repo](https://github.com/rcos/venue)!
+observatory:
+    img: "img/observatory.png"
+    title: "Observatory (rcos.io)"
+    description: >
+        An open-source community management system for open-source communities. Observatory is used by 150+ students every semester at RPI and is under active development.
+    caption: >
+        Check it out the site [rcos.io](https://rcos.io) or the [github repo](https://github.com/rcos/observatory)!
 binpacking:
     img: "img/binpacking.png"
     title: "Javascript Bin-Packing"
@@ -12,32 +19,18 @@ binpacking:
         I open-sourced a 2D javascript bin packing algorithm that allowed words to be overlay a map at different sizes without touching. This algorithm was used to win the 2015 TripAdvisor intern hackathon.
     caption: >
         Check it out on [github](https://github.com/seveibar/js-word-packing)!
-circuits:
-    img: "img/circuit.png"
-    title: "Circuits"
-    description: >
-        I create open-source schematics and circuit designs for arduino shields and beaglebone capes.
-    caption: >
-        Coming soon!
-hwserver:
+submitty:
     img: "/img/large-hwserver.png"
     title: Homework Server
     description: >
-        A Rensselaer Center for Open Source project to build a better homework server for the RPI computer science department. The project involves improving algorithms used for grading homework, rewriting the backend php used for uploading and processing assignments, modernizing the webpages and making the assignment creation process more friendly to instructors.
+        A [Rensselaer Center for Open Source](https://rcos.io) project to build a better homework server for the RPI computer science department. The project involves improving algorithms used for grading homework, rewriting the backend php used for uploading and processing assignments, modernizing the webpages and making the assignment creation process more friendly to instructors.
     caption: >
-        Check it out on [github](https://github.com/JFrei86/HWserver)!
-gunderbar:
-    img: "/img/large-gunderbar.png"
-    title: Gunderbar
-    description: >
-        Gunderbar is an online service that offers deep integration and a seamless interface for sharing items with friends and finding items to borrow. It was first proposed at the 2013 RPI Business Model Competition and has been under development since.
-    caption: >
-        Coming soon!
+        Check it out on [github](https://github.com/Submitty/Submitty)!
 ultimate-miner:
     img: "/img/large-ultimate-miner.png"
     title: Ultimate Miner
     description: >
-        An Android game developed using Adobe Air. Ultimate Miner has been released with 100,000+ downloads and is available from the <a href='#'>Google Play Store</a>. Ultimate Miner 2 is currently under development.
+        An Android game developed using Adobe Air. Ultimate Miner has been released with 200,000+ downloads and is available from the <a href='#'>Google Play Store</a>. Ultimate Miner 2 is currently under development.
     caption: >
         Check it out on [the google play store](https://play.google.com/store/apps/details?id=air.com.spleeb.ultimatemine&hl=en)!
 big-island:

@@ -2,32 +2,36 @@ bio:
     about :
         url : /bio.html#about
 work:
-    tripadvsor:
-        url : /work.html#tripadvisor
+    collegeai:
+        url : /work.html#collegeai
+    bic:
+        url : /work.html#bic
+    graba eng:
+        url : /work.html#grabaeng
     guild:
         url : /work.html#guild
     ghe:
         url : /work.html#ghe
-    harris:
-        url : /work.html#harris
     rcos:
         url : /work.html#rcos
+    harris:
+        url : /work.html#harris
 projects:
+    venue:
+        url: /projects.html#venue
+    rcos.io:
+        url: /projects.html#observatory
     binpacking:
         url: /projects.html#binpacking
-    circuits:
-        url : /projects.html#circuits
     big island:
         url : /projects.html#big-island
-    hw server:
-        url : /projects.html#hw-server
-    gunderbar:
-        url : /projects.html#gunderbar
-    um2:
+    submitty:
+        url : /projects.html#submitty
+    ult miner:
         url : /projects.html#ultimate-miner
 contact:
-    resume :
-        url : /res/resume.pdf
+    # resume :
+    #     url : /res/resume.pdf
     email :
         url : /contact.html
     github :
@@ -36,6 +40,8 @@ contact:
         url : https://twitter.com/seveibar
     linkedin:
         url : https://www.linkedin.com/pub/severin-ibarluzea/89/b30/640
+    angel.co:
+        url : https://angel.co/seveibar
 college:
     rcos:
         url : /college.html#rcos
