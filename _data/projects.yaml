@@ -12,6 +12,13 @@ observatory:
         An open-source community management system for open-source communities. Observatory is used by 150+ students every semester at RPI and is under active development.
     caption: >
         Check it out the site [rcos.io](https://rcos.io) or the [github repo](https://github.com/rcos/observatory)!
+car soccer:
+    img: "img/car-soccer.png"
+    title: "Car Soccer"
+    description: >
+        A web clone of the physics popularized by rocket-league, uses ammo.js, physijs, and three.js.
+    caption: >
+        You can play it on this site ([/projects/car-soccer](/projects/car-soccer))
 binpacking:
     img: "img/binpacking.png"
     title: "Javascript Bin-Packing"
