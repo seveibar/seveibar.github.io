@@ -12,7 +12,7 @@ observatory:
         An open-source community management system for open-source communities. Observatory is used by 150+ students every semester at RPI and is under active development.
     caption: >
         Check it out the site [rcos.io](https://rcos.io) or the [github repo](https://github.com/rcos/observatory)!
-car soccer:
+car-soccer:
     img: "img/car-soccer.png"
     title: "Car Soccer"
     description: >
